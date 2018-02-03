@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="521.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="filebrowser.FXMLDocumentController">
+    <children>
+      <TextField fx:id="textField" layoutX="97.0" layoutY="27.0" prefHeight="35.0" prefWidth="433.0" text="F:\\" />
+      <TreeView fx:id="treeView" layoutX="26.0" layoutY="87.0" prefHeight="425.0" prefWidth="312.0" />
+      <ListView fx:id="listView" layoutX="350.0" layoutY="87.0" prefHeight="425.0" prefWidth="266.0" />
+      <Label fx:id="label" layoutX="20.0" layoutY="30.0" text="Search" textFill="#0b7eab">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
