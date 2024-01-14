@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: HanaaMAldaly/hello-world-js-action@v1.2
+        uses: HanaaMAldaly/hello-world-js-action@v1.3
         with: 
           who-to-greet: 'hana'
       - name: Get Greet time
